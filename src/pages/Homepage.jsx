@@ -8,9 +8,19 @@ import HeroVideo from "../components/HeroVideo";
 import { music } from "../assets";
 import ReactPlayer from "react-player";
 import { Asset_15, Asset_16 } from "../assets";
+import Loading from "../Components/Loading";
 const Homepage = () => {
   const [playing, setPlaying] = useState(false);
+  const [loading, setLoading] = useState(true);
 
+  // Separate useEffect for loading screen
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000); // 5000ms = 5s
+
+    return () => clearTimeout(timer); // cleanup timer on unmount
+  }, []);
   const toggleAudio = () => {
     setPlaying(!playing);
   };
@@ -26,6 +36,9 @@ const Homepage = () => {
   const SoundOffPNG = () => (
     <img src={Asset_16} alt="Sound Off" width="15" height="15" />
   );
+  if (loading) {
+    return <Loading/>
+  }
 
   return (
     <div>

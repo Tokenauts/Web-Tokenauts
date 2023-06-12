@@ -27,7 +27,7 @@ const HeroVideo = () => {
         pointerEvents: loading ? "none" : "auto",
       }}
     >
-      <video className="absolute z-0 w-auto " src={Home} autoPlay muted />
+      <video className="absolute z-0 w-auto " src={Home} autoPlay muted eager />
 
       <div className="flex flex-col items-center z-10 text-white ">
         <motion.div
@@ -35,7 +35,7 @@ const HeroVideo = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 8 }}
         >
-          <div className=" font-Orbitron font-bold text-center text-5xl ">
+          <div className=" font-Orbitron font-bold text-center text-4xl ">
             Navigate the Cosmos
           </div>
         </motion.div>
@@ -44,7 +44,7 @@ const HeroVideo = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 8 }}
         >
-          <div className=" font-Orbitron font-bold text-center mt-2 text-5xl">
+          <div className=" font-Orbitron font-bold text-center mt-2 text-4xl">
             of Investment Opportunities
           </div>
         </motion.div>

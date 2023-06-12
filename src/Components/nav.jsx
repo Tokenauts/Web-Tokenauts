@@ -12,14 +12,12 @@ const Nav = () => {
       transition={{ duration: 1, delay: 3 }}
     >
       <nav>
-        <div class=" relative first-line:placeholder:max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 max-w-5xl z-50	 ">
-          <video autoPlay loop muted playsInline className=" h-28">
+        <div class=" relative first-line:placeholder:max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 max-w-5xl z-50	 order-2 ">
+          <video autoPlay loop muted playsInline className="lg:w-48 md:w-12 sm:w-2">
             // <source src={logoVideo} type="video/mp4" />
             //{" "}
           </video>
-
-          <div class="flex md:order-2">
-           <a href="https://3kw0tru8iwz.typeform.com/to/XxsmEeO0">
+          <a href="https://3kw0tru8iwz.typeform.com/to/XxsmEeO0">
               <button
                 type="button"
                 class="text-black bg-[#99EDCC] hover:bg-#e5eeea focus:ring-4 focus:outline-none focus:ring-white-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-#99EDCC dark:hover:bg-#fdfdfd dark:focus:ring-white"
@@ -27,6 +25,9 @@ const Nav = () => {
                 Join Waitlist
               </button>
             </a>
+
+          {/* <div class="flex md:order-2"> */}
+          
             {/* <button
               data-collapse-toggle="navbar-sticky"
               type="button"
@@ -49,7 +50,7 @@ const Nav = () => {
                 ></path>
               </svg>
             </button> */}
-          </div>
+          {/* </div> */}
           {/* <div
             class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
             id="navbar-sticky"

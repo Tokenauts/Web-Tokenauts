@@ -44,7 +44,7 @@ const Footer = () => {
                 </a>
               </nav>
             </div>
-            <div class="relative flex items-center self-stretch p-4 -mx-4 transition-colors group hover:bg-gray-100 sm:self-auto sm:rounded-2xl lg:mx-0 lg:self-auto lg:p-6">
+            <div class="relative flex items-center self-stretch p-4 -mx-4 transition-colors group sm:self-auto sm:rounded-2xl lg:mx-0 lg:self-auto lg:p-6">
               <div class="relative flex items-center justify-center flex-none w-24 h-24 bg-white rounded-xl">
                 <svg
                   class="w-5 h-5"

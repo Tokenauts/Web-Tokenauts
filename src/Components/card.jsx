@@ -1,5 +1,4 @@
 import React from "react";
-
 import { motion } from "framer-motion";
 import {
   textContainer,
@@ -47,10 +46,7 @@ const card = () => {
                   EXPLORE
                 </p>
                 <p class=" mt-3 text-base text-gray-500">
-                  We challenge the status quo, breaking away from traditional
-                  finance. Join us in creating a new financial landscape, shaped
-                  by the crowd.
-                </p>
+                Explore the Tokenauts universe, unravel the complexities of crypto and web3, and expand your knowledge with educational resources and insights.                </p>
               </figure>
             </motion.div>
             <motion.div
@@ -71,9 +67,7 @@ const card = () => {
                   DISCOVER
                 </p>
                 <p class="  mt-3 text-base text-gray-500">
-                  Say goodbye to middlemen. Our platform leverages blockchain
-                  technology to connect you directly with innovative projects.
-                  Be part of the change.
+                Discover hidden gems within the crypto universe as our team analyzes projects, evaluates tokenomics, and curates transformative innovations for potential investment opportunities.
                 </p>
               </figure>
             </motion.div>
@@ -97,9 +91,7 @@ const card = () => {
                   INVEST
                 </p>
                 <p class="  mt-3 text-base text-gray-500">
-                  We believe in equal opportunities. Our platform empowers
-                  everyone to contribute, invest, and reap the benefits of
-                  groundbreaking initiatives
+                Empower yourself to make informed investment decisions with real-time market data, personalized recommendations, and tools to maximize potential returns in the dynamic crypto landscape
                 </p>
               </figure>
             </motion.div>

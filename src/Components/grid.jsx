@@ -47,7 +47,7 @@ const Grid = () => {
           <div>
             <div>
               <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:py-16 lg:px-8">
-                <div class="mt-6 grid grid-cols-4  md:grid-cols-4 lg:mt-8">
+                <div class="mt-6 grid grid-cols-2  md:grid-cols-4 lg:mt-8 gap-5">
                   <motion.div
                     whileHover={{ scale: 1.05 }}
                     onHoverStart={(e) => {}}
