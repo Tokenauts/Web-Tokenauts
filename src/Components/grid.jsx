@@ -12,7 +12,7 @@ const Grid = () => {
               <p class=" font-Orbitron mt-8 text-5xl font-medium  text-white">
                 Explore the cosmos of WEB 3.0
               </p>
-              <p class="   mx-auto mt-4 text-lg tracking-tight text-gray-600">
+              <p class="  font-Raleway mx-auto mt-4 text-lg tracking-tight text-gray-600">
                 Venture into the cosmic realm of Web 3.0 and unlock a world of
                 decentralized innovation and limitless possibilities. Join us on
                 an extraordinary journey through blockchain technology,
@@ -29,7 +29,7 @@ const Grid = () => {
               >
                 <a
                   href="#"
-                  class="  items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-black border-2 border-white rounded-full nline-flex hover:bg-[#99EDCC] hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-white text-sm focus-visible:ring-white"
+                  class="font-Raleway  items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-black border-2 border-white rounded-full nline-flex hover:bg-blue hover:text-white hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-white text-sm focus-visible:ring-white"
                 >
                   Join Waitlist
                 </a>

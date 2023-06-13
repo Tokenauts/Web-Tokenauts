@@ -53,7 +53,7 @@ const HeroVideo = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 2, delay: 9 }}
         >
-          <div className=" font-Orbitron  text-center mt-20 lg:text-base	">
+          <div className="  font-Raleway  text-center mt-20 lg:text-base	">
             Scroll Down{" "}
           </div>
         </motion.div>

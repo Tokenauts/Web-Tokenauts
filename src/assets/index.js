@@ -26,7 +26,7 @@ import explore from "./explore.jpg";
 import discover from "./discover.jpg";
 import Asset_1 from "./Asset_1.svg";
 import Asset_2 from "./Asset_2.svg";
-
+import Asset_23 from "./Asset_23.svg";
 import Asset_3 from "./Asset_3.svg";
 import Asset_4 from "./Asset_4.svg";
 
@@ -61,4 +61,5 @@ export {
   Asset_2,
   Asset_3,
   Asset_4,
+  Asset_23,
 };

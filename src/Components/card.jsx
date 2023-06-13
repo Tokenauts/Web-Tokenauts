@@ -6,7 +6,7 @@ import {
   staggerContainer,
   navVariants,
 } from "../utils/motion";
-import { invest,explore,discover } from "../assets";
+import { invest, explore, discover } from "../assets";
 const card = () => {
   return (
     <section class="flex items-center w-full bg-black z-60">
@@ -43,11 +43,14 @@ const card = () => {
                   height="873"
                 />
 
-                <p class=" font-Orbitron mt-5 text-lg font-medium leading-6 text-white">
+                <p class=" text-blue font-Orbitron mt-5 text-lg font-medium leading-6">
                   EXPLORE
                 </p>
-                <p class=" mt-3 text-base text-gray-500">
-                Explore the Tokenauts universe, unravel the complexities of crypto and web3, and expand your knowledge with educational resources and insights.                </p>
+                <p class="  font-Raleway mt-3 text-base text-gray-500">
+                  Explore the Tokenauts universe, unravel the complexities of
+                  crypto and web3, and expand your knowledge with educational
+                  resources and insights.{" "}
+                </p>
               </figure>
             </motion.div>
             <motion.div
@@ -64,11 +67,14 @@ const card = () => {
                   height="873"
                 />
 
-                <p class=" font-Orbitron mt-5 text-lg font-medium leading-6 text-white">
+                <p class=" font-Orbitron mt-5 text-lg font-medium leading-6 text-purple">
                   DISCOVER
                 </p>
-                <p class="  mt-3 text-base text-gray-500">
-                Discover hidden gems within the crypto universe as our team analyzes projects, evaluates tokenomics, and curates transformative innovations for potential investment opportunities.
+                <p class="font-Raleway  mt-3 text-base text-gray-500">
+                  Discover hidden gems within the crypto universe as our team
+                  analyzes projects, evaluates tokenomics, and curates
+                  transformative innovations for potential investment
+                  opportunities.
                 </p>
               </figure>
             </motion.div>
@@ -88,11 +94,14 @@ const card = () => {
                   height="873"
                 />
 
-                <p class=" font-Orbitron mt-5 text-lg font-medium leading-6 text-white">
+                <p class=" font-Orbitron mt-5 text-lg font-medium leading-6 text-green">
                   INVEST
                 </p>
-                <p class="  mt-3 text-base text-gray-500">
-Invest with confidence using real-time market data, personalized recommendations, and powerful tools to maximize your potential returns in the dynamic crypto landscape.                </p>
+                <p class="font-Raleway  mt-3 text-base text-gray-500">
+                  Invest with confidence using real-time market data,
+                  personalized recommendations, and powerful tools to maximize
+                  your potential returns in the dynamic crypto landscape.{" "}
+                </p>
               </figure>
             </motion.div>
           </div>

@@ -15,7 +15,7 @@ const Joinus = () => {
           <p class="  font-Orbitron mt-8 text-5xl font-medium  text-white ">
             Stay Light years ahead
           </p>
-          <p class="  mt-4 text-lg tracking-tight text-gray-400 text-left max-w-xl 	">
+          <p class="  font-Raleway mt-4 text-lg tracking-tight text-gray-400 text-left max-w-xl 	">
             Equip yourself with insightful data and news to traverse the crypto
             landscape with confidence. Access real-time market analysis, track
             token performance, and receive personalized recommendations that

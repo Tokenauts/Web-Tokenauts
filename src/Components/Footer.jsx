@@ -1,5 +1,5 @@
 import React from "react";
-import { Asset_1, Asset_2, Asset_3, Asset_4 } from "../assets";
+import { Asset_1, Asset_2, Asset_23, Asset_3, Asset_4 } from "../assets";
 import { motion } from "framer-motion";
 const Footer = () => {
   return (
@@ -87,17 +87,7 @@ const Footer = () => {
             </div>
             <div class="relative flex items-center self-stretch p-4 -mx-4 transition-colors group sm:self-auto sm:rounded-2xl lg:mx-0 lg:self-auto lg:p-6">
               <div class="relative flex items-center justify-center flex-none w-24 h-24 bg-white rounded-xl">
-                <svg
-                  class="w-5 h-5"
-                  viewBox="0 0 232 232"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M166.524 51.4683L116.367 101.625L65.5235 51.4683L116.367 0.62434L166.524 51.4683ZM231.11 116.054L180.953 166.898L130.796 116.054L180.953 65.8969L231.11 116.054ZM101.939 116.054L51.0948 166.898L0.250934 116.054L51.0948 65.8969L101.939 116.054ZM166.524 181.326L116.367 231.483L65.5235 181.326L116.367 130.482L166.524 181.326Z"
-                    fill="#0c0c0c"
-                  ></path>
-                </svg>{" "}
+                <img src={Asset_23} className="h-10" />
               </div>
               <div class="ml-8 lg:w-64">
                 <p class="text-base font-semibold text-white">
