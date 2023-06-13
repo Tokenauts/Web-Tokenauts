@@ -17,7 +17,7 @@ const Footer = () => {
                   </p>
                 </div>
               </div>
-              <nav class="  flex gap-8 mt-11">
+              {/* <nav class="  flex gap-8 mt-11">
                 <a
                   class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-blue-600 transition-colors delay-150 hover:delay-[0ms]"
                   href="#"
@@ -42,7 +42,7 @@ const Footer = () => {
                 >
                   <span class="relative z-10">FAQs</span>
                 </a>
-              </nav>
+              </nav> */}
             </div>
             <div class="relative flex items-center self-stretch p-4 -mx-4 transition-colors group sm:self-auto sm:rounded-2xl lg:mx-0 lg:self-auto lg:p-6">
               <div class="relative flex items-center justify-center flex-none w-24 h-24 bg-white rounded-xl">
