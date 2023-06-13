@@ -82,7 +82,7 @@ window.addEventListener("load", () => {
 const Countdown = () => {
   return (
     <motion.div variants={navVariants} initial="hidden" whileInView="show">
-      <div class="font-Raleway max-w-4xl mx-auto mt-8 z-10  mb-24 sm:w-full">
+      <div class="max-w-4xl mx-auto mt-8 z-10 font-Orbitron mb-24 sm:w-full">
         <div class="text-center text-4xl font-Orbitron">Launching in </div>
 
         <div class="mt-14 flex items-center justify-between">
