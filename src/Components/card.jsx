@@ -6,6 +6,7 @@ import {
   staggerContainer,
   navVariants,
 } from "../utils/motion";
+import { invest,explore,discover } from "../assets";
 const card = () => {
   return (
     <section class="flex items-center w-full bg-black z-60">
@@ -36,7 +37,7 @@ const card = () => {
               <figure>
                 <img
                   class="w-full "
-                  src="https://d33wubrfki0l68.cloudfront.net/7c2dda6eab52a4b95dc6c3503d5a09c4e314f756/4d7a5/images/placeholders/square1.svg"
+                  src={explore}
                   alt=""
                   width="1310"
                   height="873"
@@ -57,7 +58,7 @@ const card = () => {
               <figure>
                 <img
                   class="w-full  "
-                  src="https://d33wubrfki0l68.cloudfront.net/ded521c426f480d4e473a11836c6ab8e7e948c84/95877/images/placeholders/square3.svg"
+                  src={discover}
                   alt=""
                   width="1310"
                   height="873"
@@ -81,7 +82,7 @@ const card = () => {
               <figure>
                 <img
                   class="w-full  "
-                  src="https://d33wubrfki0l68.cloudfront.net/6163c5a4083dab2763aa0f2aa9e6bded23630eb7/935d6/images/placeholders/square2.svg"
+                  src={invest}
                   alt=""
                   width="1310"
                   height="873"
@@ -91,8 +92,7 @@ const card = () => {
                   INVEST
                 </p>
                 <p class="  mt-3 text-base text-gray-500">
-                Empower yourself to make informed investment decisions with real-time market data, personalized recommendations, and tools to maximize potential returns in the dynamic crypto landscape
-                </p>
+Invest with confidence using real-time market data, personalized recommendations, and powerful tools to maximize your potential returns in the dynamic crypto landscape.                </p>
               </figure>
             </motion.div>
           </div>

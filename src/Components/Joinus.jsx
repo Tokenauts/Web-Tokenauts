@@ -1,10 +1,10 @@
 import React from "react";
 import { Join } from "../assets";
 import { motion } from "framer-motion";
-import { textVariant2 } from "../utils/motion";
+import { navVariants } from "../utils/motion";
 const Joinus = () => {
   return (
-    <motion.h2 variants={textVariant2} initial="hidden" whileInView="show">
+    <motion.div variants={navVariants} initial="hidden" whileInView="show">
       <div
         className="h-screen  bg-no-repeat items-center px-8 py-12 mx-auto max-w-7xl lg:px-16 md:px-12 lg:py-24 bg-cointain  "
         style={{
@@ -23,7 +23,7 @@ const Joinus = () => {
           </p>
         </div>
       </div>
-    </motion.h2>
+    </motion.div>
   );
 };
 
