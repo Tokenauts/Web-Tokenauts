@@ -1,6 +1,6 @@
 import React from "react";
 import { Asset_1, Asset_2, Asset_3, Asset_4 } from "../assets";
-
+import { motion } from "framer-motion";
 const Footer = () => {
   return (
     <div>
@@ -19,30 +19,70 @@ const Footer = () => {
                 </div> */}
               </div>
               <nav class="  flex gap-8 ">
-                <a
-                  class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-blue-600 transition-colors delay-150 hover:delay-[0ms]"
-                  href="https://twitter.com/Tokenauts_Defi"
+                <motion.button
+                  whileHover={{
+                    scale: 1.1,
+                    transition: { duration: 1 },
+                  }}
+                  whileTap={{ scale: 0.9 }}
                 >
-                  <img src={Asset_3} className="h-8" />
-                </a>
-                <a
-                  class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-blue-600 transition-colors delay-150 hover:delay-[0ms]"
-                  href="https://discord.gg/Cp76xHrH"
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-blue-600 transition-colors delay-150 hover:delay-[0ms]"
+                    href="https://twitter.com/Tokenauts_Defi"
+                  >
+                    <img src={Asset_3} className="h-8" />
+                  </a>
+                </motion.button>
+                <motion.button
+                  whileHover={{
+                    scale: 1.1,
+                    transition: { duration: 1 },
+                  }}
+                  whileTap={{ scale: 0.9 }}
                 >
-                  <img src={Asset_4} className="h-8" />
-                </a>
-                <a
-                  class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-blue-600 transition-colors delay-150 hover:delay-[0ms]"
-                  href="#"
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-blue-600 transition-colors delay-150 hover:delay-[0ms]"
+                    href="https://discord.gg/Cp76xHrH"
+                  >
+                    <img src={Asset_4} className="h-8" />
+                  </a>
+                </motion.button>
+                <motion.button
+                  whileHover={{
+                    scale: 1.1,
+                    transition: { duration: 1 },
+                  }}
+                  whileTap={{ scale: 0.9 }}
                 >
-                  <img src={Asset_1} className="h-8" />
-                </a>
-                <a
-                  class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-blue-600 transition-colors delay-150 hover:delay-[0ms]"
-                  href="#"
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-blue-600 transition-colors delay-150 hover:delay-[0ms]"
+                    href="https://www.instagram.com/tokenauts/"
+                  >
+                    <img src={Asset_1} className="h-8" />
+                  </a>
+                </motion.button>
+                <motion.button
+                  whileHover={{
+                    scale: 1.1,
+                    transition: { duration: 1 },
+                  }}
+                  whileTap={{ scale: 0.9 }}
                 >
-                  <img src={Asset_2} className="h-8" />
-                </a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-blue-600 transition-colors delay-150 hover:delay-[0ms]"
+                    href="https://www.youtube.com/channel/UCeVRoxP6kaAcj_vp3sqsLUw"
+                  >
+                    <img src={Asset_2} className="h-8" />
+                  </a>
+                </motion.button>
               </nav>
             </div>
             <div class="relative flex items-center self-stretch p-4 -mx-4 transition-colors group sm:self-auto sm:rounded-2xl lg:mx-0 lg:self-auto lg:p-6">
@@ -61,7 +101,11 @@ const Footer = () => {
               </div>
               <div class="ml-8 lg:w-64">
                 <p class="text-base font-semibold text-white">
-                  <a href="#">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://medium.com/@tokenauts"
+                  >
                     <span class="absolute text-left inset-0 sm:rounded-2xl"></span>
                     Stay updated
                   </a>

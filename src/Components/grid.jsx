@@ -13,11 +13,11 @@ const Grid = () => {
                 Explore the cosmos of WEB 3.0
               </p>
               <p class="   mx-auto mt-4 text-lg tracking-tight text-gray-600">
-                Dive into a world where financial power is returned to the
-                people. Crowd Source enables you to disrupt, decentralize, and
-                democratize the way we invest. Your voice matters in this
-                financial revolution. Let's redefine the future of finance
-                together.
+                Venture into the cosmic realm of Web 3.0 and unlock a world of
+                decentralized innovation and limitless possibilities. Join us on
+                an extraordinary journey through blockchain technology,
+                decentralized applications, and transformative crypto
+                ecosystems.
               </p>
             </div>
             <div class="flex flex-col items-center justify-center gap-3 mt-10 lg:flex-row">
