@@ -14,8 +14,9 @@ const Grid = () => {
               </p>
               <p class="  font-Raleway mx-auto mt-4 text-lg tracking-tight text-gray-600">
                 Venture into the cosmic realm of Web 3.0 and unlock a world of
-                decentralized innovation and limitless possibilities. Join us on
-                an extraordinary journey through blockchain technology,
+                decentralized innovation and limitless possibilities. Explore
+                all the new projects on leading blockchains and join us on an
+                extraordinary journey through blockchain technology,
                 decentralized applications, and transformative crypto
                 ecosystems.
               </p>
@@ -28,7 +29,7 @@ const Grid = () => {
                 }}
               >
                 <a
-                  href="#"
+                  href="https://3kw0tru8iwz.typeform.com/to/XxsmEeO0"
                   class="font-Raleway  items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-black border-2 border-white rounded-full nline-flex hover:bg-blue hover:text-white hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-white text-sm focus-visible:ring-white"
                 >
                   Join Waitlist

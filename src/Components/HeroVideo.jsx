@@ -35,7 +35,7 @@ const HeroVideo = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 8 }}
         >
-          <div className=" font-Orbitron font-bold text-center text-4xl ">
+          <div className=" font-Orbitron font-bold text-center text-6xl ">
             Navigate the Cosmos
           </div>
         </motion.div>
@@ -44,7 +44,7 @@ const HeroVideo = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 8 }}
         >
-          <div className=" font-Orbitron font-bold text-center mt-2 text-4xl">
+          <div className=" font-Orbitron font-bold text-center mt-2 text-6xl">
             of Investment Opportunities
           </div>
         </motion.div>

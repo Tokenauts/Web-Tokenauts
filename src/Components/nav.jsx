@@ -1,9 +1,27 @@
-import React from "react";
-
+import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-
 import logoVideo from "../assets/logo.mp4";
+
 const Nav = () => {
+  const videoRef = useRef(); // Create a reference to the video element
+
+  useEffect(() => {
+    // This function will be called when the video ends
+    const handleVideoEnd = () => {
+      setTimeout(() => {
+        videoRef.current.play();
+      }, 5000); // Wait for 5 seconds before playing the video again
+    };
+
+    // Add an event listener for the 'ended' event
+    const videoEl = videoRef.current;
+    videoEl.addEventListener("ended", handleVideoEnd);
+
+    // Cleanup function to remove the event listener
+    return () => {
+      videoEl.removeEventListener("ended", handleVideoEnd);
+    };
+  }, []);
   return (
     <motion.div
       initial={{ opacity: 0, y: -50 }}
@@ -12,24 +30,24 @@ const Nav = () => {
     >
       <nav>
         <div class=" relative first-line:placeholder:max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 max-w-5xl z-50	 order-2 ">
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="lg:w-48 md:w-12 sm:w-2"
-          >
+          <video autoPlay muted playsInline className="h-24" ref={videoRef}>
             // <source src={logoVideo} type="video/mp4" />
             //{" "}
           </video>
-          <a href="https://3kw0tru8iwz.typeform.com/to/XxsmEeO0">
-            <button
-              type="button"
-              class="text-black bg-blue hover:bg-#e5eeea focus:ring-4 focus:outline-none focus:ring-white-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-#99EDCC dark:hover:bg-#fdfdfd dark:focus:ring-white"
+
+          <motion.div
+            whileHover={{
+              scale: 1.05,
+              transition: { duration: 1 },
+            }}
+          >
+            <a
+              href="https://3kw0tru8iwz.typeform.com/to/XxsmEeO0"
+              class="font-Raleway  items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-black border-2 border-white rounded-full nline-flex hover:bg-blue hover:text-white hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-white text-sm focus-visible:ring-white"
             >
               Join Waitlist
-            </button>
-          </a>
+            </a>
+          </motion.div>
 
           {/* <div class="flex md:order-2"> */}
 
