@@ -1,13 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
-import "./index.css";
 import { BrowserRouter as Router } from "react-router-dom";
+import { ThirdwebProvider } from "@thirdweb-dev/react";
+import { Sepolia } from "@thirdweb-dev/chains";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <Router>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </Router>
+import { StateContextProvider } from "./context";
+import App from "./App";
+import "./index.css";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(
+  <ThirdwebProvider activeChain={Sepolia}>
+    <Router>
+      <StateContextProvider>
+        <App />
+      </StateContextProvider>
+    </Router>
+  </ThirdwebProvider>
 );
