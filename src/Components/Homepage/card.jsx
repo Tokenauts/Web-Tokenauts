@@ -5,8 +5,8 @@ import {
   textVariant2,
   staggerContainer,
   navVariants,
-} from "../utils/motion";
-import { invest, explore, discover } from "../assets";
+} from "../../utils/motion";
+import { invest, explore, discover } from "../../assets";
 const card = () => {
   return (
     <section class="flex items-center w-full bg-black z-60">

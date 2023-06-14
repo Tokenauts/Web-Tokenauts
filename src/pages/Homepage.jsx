@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
-import Nav from "../Components/nav";
-import Card from "../Components/card";
-import Grid from "../Components/grid";
-import Footer from "../components/Footer";
-import Joinus from "../Components/Joinus";
-import HeroVideo from "../components/HeroVideo";
+import Nav from "../Components/Homepage/nav";
+import Card from "../Components/Homepage/card";
+import Grid from "../Components/Homepage/grid";
+import Footer from "../Components/Homepage/Footer";
+import Joinus from "../Components/Homepage/Joinus";
+import HeroVideo from "../Components/Homepage/HeroVideo";
 import { music } from "../assets";
 import ReactPlayer from "react-player";
 import { Asset_15, Asset_16 } from "../assets";
-import Loading from "../Components/Loading";
-import Countdown from "../Components/Countdown";
+import Loading from "../Components/Homepage/Loading";
+import Countdown from "../Components/Homepage/Countdown";
 const Homepage = () => {
   const [playing, setPlaying] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -38,7 +38,7 @@ const Homepage = () => {
     <img src={Asset_16} alt="Sound Off" width="15" height="15" />
   );
   if (loading) {
-    return <Loading/>
+    return <Loading />;
   }
 
   return (
@@ -52,14 +52,14 @@ const Homepage = () => {
         height="0"
       />
       <Nav />
-      
+
       <HeroVideo />
       <Card />
       <Grid />
-      <Countdown/>
-     
+      <Countdown />
+
       <Joinus />
-   
+
       <Footer />
       <button
         onClick={toggleAudio}

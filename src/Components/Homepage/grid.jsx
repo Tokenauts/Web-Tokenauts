@@ -1,7 +1,7 @@
 import React from "react";
-import { navVariants } from "../utils/motion";
+import { navVariants } from "../../utils/motion";
 import { motion } from "framer-motion";
-import { Asset_10, Asset_11, Asset_12, Asset_9 } from "../assets";
+import { Asset_10, Asset_11, Asset_12, Asset_9 } from "../../assets";
 const Grid = () => {
   return (
     <section className="mt:6">

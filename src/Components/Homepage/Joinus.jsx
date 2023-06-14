@@ -1,7 +1,7 @@
 import React from "react";
-import { Join } from "../assets";
+import { Join } from "../../assets";
 import { motion } from "framer-motion";
-import { navVariants } from "../utils/motion";
+import { navVariants } from "../../utils/motion";
 const Joinus = () => {
   return (
     <motion.div variants={navVariants} initial="hidden" whileInView="show">

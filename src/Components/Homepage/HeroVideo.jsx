@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Home } from "../assets";
+import { Home } from "../../assets";
 import { motion } from "framer-motion";
 const HeroVideo = () => {
   const [loading, setLoading] = useState(true);
@@ -27,7 +27,7 @@ const HeroVideo = () => {
         pointerEvents: loading ? "none" : "auto",
       }}
     >
-      <video className="absolute z-0 w-auto " src={Home} autoPlay muted eager />
+      <video className="absolute z-0 w-auto " src={Home} autoPlay muted />
 
       <div className="flex flex-col items-center z-10 text-white ">
         <motion.div

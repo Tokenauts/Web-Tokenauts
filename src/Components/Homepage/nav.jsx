@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import logoVideo from "../assets/logo.mp4";
+import logoVideo from "../../assets/logo.mp4";
 
 const Nav = () => {
   const videoRef = useRef(); // Create a reference to the video element

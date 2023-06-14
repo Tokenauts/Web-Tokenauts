@@ -2,7 +2,7 @@ import React from "react";
 import { gsap } from "gsap";
 import "./Countdown.css";
 import { motion } from "framer-motion";
-import { navVariants } from "../utils/motion";
+import { navVariants } from "../../utils/motion";
 window.addEventListener("load", () => {
   let birthday = "2023/08/01";
 

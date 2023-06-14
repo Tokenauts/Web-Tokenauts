@@ -1,5 +1,5 @@
 import React from "react";
-import { Asset_1, Asset_2, Asset_23, Asset_3, Asset_4 } from "../assets";
+import { Asset_1, Asset_2, Asset_23, Asset_3, Asset_4 } from "../../assets";
 import { motion } from "framer-motion";
 const Footer = () => {
   return (
