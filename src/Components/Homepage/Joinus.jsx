@@ -22,6 +22,19 @@ const Joinus = () => {
             propel you to warp speed in your investment journey.
           </p>
         </div>
+        <motion.button
+          whileHover={{
+            scale: 1.05,
+            transition: { duration: 1 },
+          }}
+        >
+          <a
+            href="https://3kw0tru8iwz.typeform.com/to/XxsmEeO0"
+            class="font-Raleway  ml-12  items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-black border-2 border-white rounded-full nline-flex hover:bg-blue hover:text-white hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-white text-sm focus-visible:ring-white"
+          >
+            Join Waitlist
+          </a>
+        </motion.button>
       </div>
     </motion.div>
   );
