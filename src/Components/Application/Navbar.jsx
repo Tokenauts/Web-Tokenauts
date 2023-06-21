@@ -44,7 +44,7 @@ const Navbar = () => {
               loginOptional: false,
             }}
           />
-          <Link to="/profile">
+          {/* <Link to="/profile">
             <div className="w-[52px] h-[52px] rounded-full bg-[#2c2f32] flex justify-center items-center cursor-pointer">
               <img
                 src={thirdweb}
@@ -52,7 +52,7 @@ const Navbar = () => {
                 className="w-[60%] h-[60%] object-contain"
               />
             </div>
-          </Link>
+          </Link> */}
         </div>
 
         {/* Small screen navigation */}

@@ -32,13 +32,13 @@ const Sidebar = () => {
 
   return (
     <motion.div
-      initial={{ opacity: 0, x: -100 }}
+      initial={{ opacity: 1, x: 0 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 1, delay: 1 }}
     >
-      <div className="flex justify-between items-center flex-col sticky top-5 h-[93vh]">
+      <div className="flex justify-between items-center flex-col sticky top-5 h-[10vh]">
         <Link to="/app">
-          <Icon styles="w-[52px] h-[52px] bg-[#52489C]" imgUrl={logo} />
+          <Icon styles="w-[52px] h-[52px] " imgUrl={logo} />
         </Link>
 
         <div className="flex-1 flex flex-col justify-between items-center bg-gray-100 rounded-[20px] w-[76px] py-4 mt-12">

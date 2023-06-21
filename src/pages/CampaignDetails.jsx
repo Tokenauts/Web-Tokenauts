@@ -164,11 +164,11 @@ const CampaignDetails = () => {
             </div>
 
             <div className="flex md:w-[150px] w-full flex-wrap justify-between gap-[30px]">
-              {/* <CountBox
+              <CountBox
                 title="Days Left"
                 value={remainingDays < 0 ? "Ended" : remainingDays}
-              /> */}
-              <CountBox
+              />
+              {/* <CountBox
                 title="Time Left"
                 value={
                   remainingDays < 2
@@ -177,7 +177,7 @@ const CampaignDetails = () => {
                     ? "Ended"
                     : `${remainingDays} days`
                 }
-              />
+              /> */}
 
               <CountBox
                 title={`Raised of ${state.target}`}
